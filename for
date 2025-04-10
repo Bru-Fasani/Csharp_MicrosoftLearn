@@ -3,6 +3,7 @@ for (inicialização; condição; incremento/decremento)
     // bloco de código a ser repetido
 }
 
+
 //exemplo:
 
 string[] frutas = {"maçã", "banana", "laranja","morango","cereja"};
