@@ -1,3 +1,4 @@
+// Método Clear
 string[] pallets =  ["B14", "A11", "B12", "A13" ];
 Console.WriteLine("");
 
@@ -8,6 +9,7 @@ foreach (var pallet in pallets)
     Console.WriteLine($"-- {pallet}");
 }
 
+//Método Resize
 Console.WriteLine("");
 Array.Resize(ref pallets, 6);
 Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
