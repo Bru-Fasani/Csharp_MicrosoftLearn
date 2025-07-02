@@ -10,7 +10,7 @@ foreach (var item in Pilha)
     Console.WriteLine(item.ToString());
 }
 
-//Remove o último item a Pilha
+//Remove o último item da Pilha
 Pilha.Pop();
 
 foreach (var item in Pilha)
